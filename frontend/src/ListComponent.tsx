@@ -1,6 +1,7 @@
 import ItemComponent from './ItemComponent'
 
 export default function ListComponent(props:any){
+    
     return (
     <div>
         <h2>{props.listName}</h2>
