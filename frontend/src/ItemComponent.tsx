@@ -2,5 +2,10 @@
 
 
 export default function ItemComponent(props:any){
-    return <li>Item desc: { props.name }</li>
+    const status = props.status;
+    return <div>
+                <li> { props.name } 
+                    <p>Status: {status ? <div>Finalizado</div> : <div>Não Finalizado</div>} </p>
+                </li>
+            </div>
 }
