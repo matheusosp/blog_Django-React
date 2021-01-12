@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'j+2p9eeb%bbh*jst3((-f0a4*dr@+h$_05#=xw$=ze)36jo#xo'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', '51.143.150.114', 'www.meudominio.com.br']
 
 
 # Application definition
@@ -126,5 +126,6 @@ STATIC_URL = '/static/'
 
 CORS_ORIGIN_WHITELIST = [
     "http://127.0.0.1:3000",
-    "http://localhost:3000"
+    "http://localhost:3000",
+    'novoip'
 ]
