@@ -3,9 +3,11 @@
 
 export default function ItemComponent(props:any){
     const status = props.status;
-    return <div>
-                <li> { props.name } 
-                    <p>Status: {status ? <div>Finalizado</div> : <div>Não Finalizado</div>} </p>
-                </li>
-            </div>
+    return (
+        <>
+            <li> { props.name } 
+                <p>Status: {status ? 'Finalizado' : 'Não Finalizado'} </p>
+            </li>
+        </>
+    )
 }

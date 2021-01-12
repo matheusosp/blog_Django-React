@@ -1,8 +1,7 @@
 from django.contrib import admin
-from django.urls import path
+from django.urls import include,path
 from rest_framework import routers
 from .views import UserViewSet, GroupViewSet
-from django.conf.urls import include
 from core.views import ListViewSet, ItemViewSet
 from rest_framework.authtoken import views
 

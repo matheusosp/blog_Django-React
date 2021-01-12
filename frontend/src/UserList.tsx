@@ -17,7 +17,7 @@ function UserList() {
    },[])
     var token = '';
 
-    if(token===''){
+    if(token){
         return <LoginComponent/>
     }
     return( 
