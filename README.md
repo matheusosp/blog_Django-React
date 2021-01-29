@@ -12,6 +12,8 @@ The project consists of a login system to register tasks, made with react and dj
 - Typescript
 - localStorage
 
+![Foo](https://raw.githubusercontent.com/matheusosp/angular-Cinema/main/Cinema%20management%20.jpg)
+
 ## TO RUN LOCALLY
 ```
 git clone git@github.com:matheusosp/blog_Django-React.git
