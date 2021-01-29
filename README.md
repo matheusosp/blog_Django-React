@@ -12,7 +12,7 @@ The project consists of a login system to register tasks, made with react and dj
 - Typescript
 - localStorage
 
-![Foo](https://raw.githubusercontent.com/matheusosp/angular-Cinema/main/Cinema%20management%20.jpg)
+![Foo](https://raw.githubusercontent.com/matheusosp/blog_Django-React/main/Lista%20de%20tarefas%20-%20Google%20Chrome.jpg)
 
 ## TO RUN LOCALLY
 ```
