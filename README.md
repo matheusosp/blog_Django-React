@@ -1,4 +1,36 @@
-# Getting Started with Create React App
+
+The project consists of a login system to register tasks, made with react and django
+
+### TECHNOLOGIES
+- Python 
+- Django
+- Django Rest framework
+- django-cors-headers to allow the react app to consume the django api
+- React
+- axios to consume the django API
+- NODEJS
+- Typescript
+- localStorage
+
+## TO RUN LOCALLY
+```
+git clone git@github.com:matheusosp/blog_Django-React.git
+cd backend
+python -m venv venv
+venv/Scripts/activate
+pip install -r requirements.txt 
+python manage.py makemigrations
+python manage.py migrate 
+python manage.py runserver
+python manage.py ceratesuperuser
+login and create items and lists for the user in http://127.0.0.1:8000/admin
+cd ..
+cd frontend
+npm install
+npm start
+```
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
